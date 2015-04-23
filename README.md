@@ -1,2 +1,2 @@
-# vagrant-ubuntu14-lamp
-Quick n' dirty LAMP provisioning on base Ubuntu 14 Vagrant VM
+# vagrant-instalamp
+Quick n' dirty LAMP provisioning on a base Ubuntu Vagrant VM
