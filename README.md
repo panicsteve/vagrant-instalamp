@@ -14,8 +14,11 @@ HTTP on port 8080.  HTTPS on port 8081 (self-signed cert).  MySQL on port 33066.
 
 MySQL root password is `root`
 
-`vagrant ssh` to ssh into VM.  Private key is located at `~/.vagrant.d/insecure_private_key`
+`vagrant ssh` to ssh into VM.  Private key is located at `~/.vagrant.d/insecure_private_key`. VM username and password are vagrant/vagrant.
 
 `vagrant halt` to turn off VM.
 
 `vagrant destroy` to delete VM.  (`vagrant up` will create it from scratch again.)
+
+Default VM settings are 512 KB RAM and 1 CPU (these can be configured in `Vagrantfile`). Default hard disk size is 40 GB, alloc'ed as needed.
+
