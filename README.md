@@ -8,7 +8,7 @@ Quick n' dirty LAMP provisioning on a base Ubuntu Vagrant VM for Mac OS X.
 4. Install VirtualBox - `brew cask install virtualbox`
 5. `vagrant up` (This will be slow the first time.)
 
-Now you have a LAMP stack based on Ubuntu 14.10.  Put site files in `www/` directory.  
+Now you have a LAMP stack based on Ubuntu Trusty.  Put site files in `www/` directory.  
 
 HTTP on port 8080.  HTTPS on port 8081 (self-signed cert).  MySQL on port 33066.
 
